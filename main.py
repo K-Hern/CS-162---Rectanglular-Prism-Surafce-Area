@@ -7,7 +7,7 @@ def rect_solid_area(length, width, height):
     return area
 
 # Function returns area of rectangle given length & width
-# Author - Kevin Hernandez
+# Author - Kevin Hernández
 def rect_area(length, width):
     area = length * width
     return area
