@@ -1,11 +1,13 @@
 # CS 16X Git Assignment
 
 # rect_solid_area (length, width, height) which will return the area of a solid rectangular object
+# Author - Jill Hanson
 def rect_solid_area(length, width, height):
     area = 2 * (rect_area(length, width) + rect_area(height, length) + rect_area(height, width))
     return area
 
 # Function returns area of rectangle given length & width
+# Author - Kevin Hernandez
 def rect_area(length, width):
     area = length * width
     return area
